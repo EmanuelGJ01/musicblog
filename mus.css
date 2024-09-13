@@ -4,6 +4,7 @@
     text-decoration: none;
     color: black;
     list-style: none;
+    box-sizing: border-box;
     
 }
 
@@ -22,11 +23,18 @@ body{
     z-index: 100;
     justify-content: space-between;
     align-items: center;
+    padding: 5px;
     
     
  }
  nav a,h2{
     color: white;
+ }
+ nav ul{
+    display: flex;
+    padding: 200px 300px;
+    gap: 400px;
+
  }
  
 
@@ -50,6 +58,7 @@ body{
     padding: 20px;
     justify-content: center;
     align-items: center;
+    margin-top: 35%;
 
     grid-column: 3/8;
 
